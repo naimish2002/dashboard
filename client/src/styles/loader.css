@@ -1,0 +1,49 @@
+.Loader {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: #F5F5F5;
+}
+
+.Loader img {
+    background: transparent;
+}
+
+.loading_animation {
+    background: #FFF;
+    width: 20rem;
+    height: 0.625rem;
+    position: relative;
+    border-radius: 0.9375rem;
+}
+
+.loading_animation .color {
+    position: absolute;
+    top: 0;
+    background: #FA782F;
+    height: 100%;
+    border-radius: 0.9375rem;
+    animation: progress 4s infinite linear;
+}
+
+@keyframes progress{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 75%;
+    }
+    75%{
+        width: 85%;
+    }
+    100%{
+        width: 100%;
+    }
+};
