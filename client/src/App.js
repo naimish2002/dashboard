@@ -9,7 +9,10 @@ function App() {
       {status.loading && <Loader />}
 
       <MenuBar />
-      <Feed />
+
+      <section className='app_section'>
+        <Feed />
+      </section>
     </div>
   );
 }

@@ -7,7 +7,6 @@
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
   color: #000;
-  background: #fff;
 }
 
 ::-webkit-scrollbar {
@@ -26,9 +25,25 @@
 .App {
   width: 100vw;
   min-height: 100vh;
-  background: #FFF;
+  background: #fff;
   transition: all 0.5s ease;
+  display: flex;
+}
+
+.app_section {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100vw;
 }
 
 /* Loader Styles */
 @import url('./styles/loader.css');
+
+/* MenuBar Styles */
+@import url('./styles/menubar.css');
+
+/* Feed Styles */
+@import url('./styles/feed.css');
+@import url('./styles/topbar.css');
+@import url("./styles/card.css")
