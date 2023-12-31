@@ -2,7 +2,12 @@ import React from 'react';
 
 const MenuBar = () => {
   return (
-    <div className='menubar'>
+    <div
+      className='menubar'
+      style={{
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+      }}>
       <div className='menubar_top'>
         <div className='menubar_logo'>
           <img

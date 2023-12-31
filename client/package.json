@@ -1,9 +1,10 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "proxy": "http://localhost:8000/",
+  "proxy": "https://mern-dashboard-backend-65ne.onrender.com",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@redux-devtools/extension": "^3.3.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

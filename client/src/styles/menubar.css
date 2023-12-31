@@ -32,7 +32,7 @@
 
 .menubar_top_item,
 .menubar_bootom-item {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 0.375rem;
   margin: 1.75rem 0 0 2rem;
