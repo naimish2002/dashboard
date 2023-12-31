@@ -51,6 +51,11 @@
   gap: 0.5rem;
 }
 
+.showproject_item label {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
 .showproject_item input,
 .showproject_item textarea {
     width: 100%;
@@ -71,4 +76,77 @@
   height: 100%;
   object-fit: cover;
   border-radius: 0.625rem;
+}
+
+@media screen and (max-width: 640px) {
+  .showproject_wrappper {
+    width: 90%;
+    height: 50%;
+  }
+
+  .showproject-top span {
+    right: 0.5rem;
+  }
+
+  .showproject-content {
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+
+  .showproject_item input,
+  .showproject_item textarea {
+    height: 2rem;
+  }
+
+  .showproject_item textarea {
+    height: 4rem;
+  }
+
+  .showproject_item img {
+    height: 10rem;
+  }
+
+  .showproject_item label {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .showproject_wrappper {
+    width: 90%;
+    height: 80%;
+  }
+
+  .showproject-top span {
+    right: 0.5rem;
+  }
+
+  .showproject-content {
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+
+  .showproject_item input,
+  .showproject_item textarea {
+    height: 2rem;
+  }
+
+  .showproject_item textarea {
+    height: 4rem;
+  }
+
+  .showproject_item label {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .showproject_item img {
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .showproject_item img {
+    height: 20rem;
+  }
+  
 }

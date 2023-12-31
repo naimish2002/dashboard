@@ -23,7 +23,9 @@ const NewProject = () => {
   useEffect(() => {
     const fetchRandomImage = async () => {
       try {
-        const response = await fetch('https://picsum.photos/v2/list?page=1&limit=6');
+        const response = await fetch(
+          'https://picsum.photos/v2/list?page=1&limit=6'
+        );
         const data = await response.json();
         setRandomImages(data);
         // Select a random image from the array
